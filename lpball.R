@@ -1,3 +1,7 @@
+## function for lpball and buffon needle experiment
+## class project
+##
+
 pball=function(d,p){        # set the function
   u=runif(d+1)     
   z=qgamma(u[-1],1/p)
